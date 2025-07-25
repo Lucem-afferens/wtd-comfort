@@ -110,7 +110,37 @@ document.addEventListener('click', function(event) {
     }
 });
 
-
+    // Логика для чекбокса 'Не пью алкоголь'
+    const alcoholNone = document.getElementById('non-alcoholic');
+    const alcoholCheckboxes = document.querySelectorAll('input[name="drinking[]"]:not(#non-alcoholic)');
+    if (alcoholNone && alcoholCheckboxes.length) {
+        alcoholNone.addEventListener('change', function() {
+            if (this.checked) {
+                alcoholCheckboxes.forEach(cb => {
+                    cb.checked = false;
+                    cb.disabled = true;
+                });
+            } else {
+                alcoholCheckboxes.forEach(cb => {
+                    cb.disabled = false;
+                });
+            }
+        });
+        alcoholCheckboxes.forEach(cb => {
+            cb.addEventListener('change', function(e) {
+                if (alcoholNone.checked) {
+                    // Не даём выбрать алкоголь, если выбран 'Не пью алкоголь'
+                    e.preventDefault();
+                    this.checked = false;
+                    return false;
+                }
+                if (this.checked && alcoholNone.checked) {
+                    alcoholNone.checked = false;
+                    alcoholCheckboxes.forEach(box => box.disabled = false);
+                }
+            });
+        });
+    }
 
 
 
