@@ -2,7 +2,6 @@
     height: 100vh;
     height: 100svh;
     min-height: 600px;
-    // background: url('../../img/flowers-border-3.svg') no-repeat 50%/contain, url('../../img/first-date.jpg') no-repeat 50%/cover;
     background-position: 49% 0;
     color: #fff;
     text-align: center;
@@ -13,12 +12,9 @@
         position: relative;
         aspect-ratio: 1 / 1;
         width: 26vw;
-        // height: 25vw;
-        // min-height: 190px;
         min-width: 190px;
         max-width: 500px;
-        // max-height: 400px;
-        background: url('../../img/first-date.jpg') no-repeat 50%/cover;
+        background: url('../img/first-date.jpg') no-repeat 50%/cover;
         background-position: 0 0;
         top: 52.5%;
         left: 50%;
@@ -34,7 +30,7 @@
             top: 44%;
             left: 46.5%;
             translate: -50% -50%;
-            background: url('../../img/flowers-border-3.svg') no-repeat 50%/cover;
+            background: url('../img/flowers-border-3.svg') no-repeat 50%/cover;
             overflow: hidden;
         }
     }
@@ -87,10 +83,10 @@
         left: 50%;
         translate: -50%;
         opacity: .7;
-        background: url('../../img/nameWithDate-in-wreath.svg') no-repeat 50%/cover;
+        background: url('../img/nameWithDate-in-wreath.svg') no-repeat 50%/cover;
         &-date {
             display: none;
-            background: url('../../img/date-without-wreath.svg') no-repeat 50%/cover;
+            background: url('../img/date-without-wreath.svg') no-repeat 50%/cover;
         }
     }
 }
@@ -105,7 +101,7 @@
             left: 50%;
             translate: -50% -50%;
             opacity: .7;
-            background: url('../../img/empty-in-wreath.svg') no-repeat 50%/contain;
+            background: url('../img/empty-in-wreath.svg') no-repeat 50%/contain;
         } 
     }
 }
