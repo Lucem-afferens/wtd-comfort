@@ -36,7 +36,7 @@ targets.forEach(target => {
 
 // Fir Countdown
 const countdown = document.querySelector('.countdown');
-const targetDate = new Date('2027-07-07T12:00:00');
+const targetDate = new Date('2025-08-08T12:00:00');
  
 function updateCountdown() {
   const now = new Date();
