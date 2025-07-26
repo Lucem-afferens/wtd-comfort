@@ -2,6 +2,9 @@
     padding-top: 100px;
     padding-bottom: 40px;
     text-align: center;
+    background: rgba(254, 253, 253, 0.3);
+    backdrop-filter: blur(2px);
+    mask-image: linear-gradient(to top, #000 60%, transparent);
     &__wrapper {
         display: flex;
         flex-direction: column;
