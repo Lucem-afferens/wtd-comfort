@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     text-underline-offset: 4px;
-
+    text-shadow: 1px 1px 0px #000;
 }
 
 .container {
@@ -41,6 +41,7 @@ body {
     color:azure;
     // color: beige;
     // color: aliceblue;
+    // background: rgba(254, 253, 253, 0.2);
 
 }
 
@@ -62,16 +63,7 @@ body {
             width: 100%;
             height: 100%;
             opacity: .2;
-                        // max-width: 1024px;
-                        // left: 50%;
-                        // translate: -50%;
-                        // backdrop-filter: brightness(10%);
-                        // backdrop-filter: blur(10px);
-                        // filter: blur(10px);
             background: rgba(254, 253, 253, .9);
-            // backdrop-filter: blur(3px), brightness(10%);
-            // backdrop-filter: blur(1px);
-                // mask-image: linear-gradient(#000 90%, transparent);
         }
     }
 }

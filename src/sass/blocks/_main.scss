@@ -8,7 +8,7 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background: rgba(254, 253, 253, 0.3);
+    background: rgba(254, 253, 253, 0.2);
     backdrop-filter: blur(2px);
     mask-image: linear-gradient(#000 90%, transparent);
     &__wrapper {
@@ -33,7 +33,7 @@
             top: 44%;
             left: 46.5%;
             translate: -50% -50%;
-            background: url('../img/flowers-border-3.svg') no-repeat 50%/cover;
+            background: url('../img/flowers_border_3.webp') no-repeat 50%/cover;
             overflow: hidden;
         }
     }
