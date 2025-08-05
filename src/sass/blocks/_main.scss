@@ -17,7 +17,7 @@
         width: 26vw;
         min-width: 190px;
         max-width: 500px;
-        background: url('../img/first-date.jpg') no-repeat 50%/cover;
+        background: url('/img/first-date.jpg') no-repeat 50%/cover;
         background-position: 0 0;
         top: 52.5%;
         left: 50%;
@@ -33,7 +33,7 @@
             top: 44%;
             left: 46.5%;
             translate: -50% -50%;
-            background: url('../img/flowers_border_3.webp') no-repeat 50%/cover;
+            background: url('/img/flowers_border_3.webp') no-repeat 50%/cover;
             overflow: hidden;
         }
     }
@@ -51,6 +51,7 @@
         text-wrap: nowrap;
         display: flex;
         justify-content: center;
+        // text-shadow: 1px 1px 2px #fff;
     }
     &__name {
         position: absolute;
@@ -66,6 +67,7 @@
         text-wrap: nowrap;
         display: flex;
         justify-content: center;
+        // text-shadow: 1px 1px 2px #fff;
     }
     &__music {
         position: absolute;
@@ -77,6 +79,8 @@
         width: max-content;
         height: max-content;
         opacity: .8;
+        // text-shadow: 1px 1px 2px #fff;
+
     }
     &__topside-img {
         position: absolute;
@@ -86,10 +90,10 @@
         left: 50%;
         translate: -50%;
         opacity: .7;
-        background: url('../img/nameWithDate-in-wreath.svg') no-repeat 50%/cover;
+        background: url('/img/nameWithDate-in-wreath.svg') no-repeat 50%/cover;
         &-date {
             display: none;
-            background: url('../img/date-without-wreath.svg') no-repeat 50%/cover;
+            background: url('/img/date-without-wreath.svg') no-repeat 50%/cover;
         }
     }
 }
@@ -104,7 +108,7 @@
             left: 50%;
             translate: -50% -50%;
             opacity: .7;
-            background: url('../img/empty-in-wreath.svg') no-repeat 50%/contain;
+            background: url('/img/empty-in-wreath.svg') no-repeat 50%/contain;
         } 
     }
 }

@@ -183,3 +183,15 @@ document.querySelector("form").addEventListener("submit", function(e) {
   });
 
   
+
+
+  // Preloader
+  const img = new Image();
+img.src = 'img/bg_texture_brown.webp'; // путь к вашему фону
+
+img.onload = () => {
+  // Когда фон загрузился — убираем затемнение
+  document.getElementById('loading-screen').classList.add('loaded');
+  document.body.classList.add('loaded');
+  document.body.style.overflow = 'auto'; // возвращаем прокрутку
+};
