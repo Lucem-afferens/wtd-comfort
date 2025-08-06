@@ -51,7 +51,7 @@
         text-wrap: nowrap;
         display: flex;
         justify-content: center;
-        // text-shadow: 1px 1px 2px #fff;
+        text-shadow: 1px 1px 1px #310101;
     }
     &__name {
         position: absolute;
@@ -67,7 +67,7 @@
         text-wrap: nowrap;
         display: flex;
         justify-content: center;
-        // text-shadow: 1px 1px 2px #fff;
+        text-shadow: 1px 1px 1px #310101;
     }
     &__music {
         position: absolute;
@@ -78,8 +78,7 @@
         font-size: clamp(16px, 2.5vw, 22px);
         width: max-content;
         height: max-content;
-        opacity: .8;
-        // text-shadow: 1px 1px 2px #fff;
+        text-shadow: none;
 
     }
     &__topside-img {
